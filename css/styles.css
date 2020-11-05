@@ -1,10 +1,7 @@
 /* navbar */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-html {
-  height:100%;
-  background-image: linear-gradient(to right top, #8e44ad 0%, #3498db 100%);
-}
+
 
 nav {
   max-width: 960px;
@@ -40,3 +37,50 @@ nav ul li a:hover {
 }
 
 /* navbar */
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 991px) {
+ .navbar:not(.top-nav-collapse) {
+  background: #78909c !important;
+ }
+}
+.jumbotron{
+  background-image: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+}
+
+.music{
+  color: white;
+  font-size: 22px;
+  padding-top: 95px;
+  font-weight: 900;
+} 
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
